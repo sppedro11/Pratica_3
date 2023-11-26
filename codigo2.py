@@ -24,9 +24,12 @@ def main():
     senha = obter_senha()
     salvar_senha_encriptada(senha)
     senha_encriptada = obter_senha_encriptada()
-    senha_digitada = 'pedro1234'
+    senha_digitada = 'pedro123'
 
+    # Verificação interna
     verificar_senha_internamente(senha_digitada, senha_encriptada)
 
 if __name__ == "__main__":
-    main()
+    # Não há necessidade de incluir testes aqui.
+    # Os testes podem ser realizados separadamente usando Pytest.
+    pass
