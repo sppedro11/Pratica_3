@@ -1,5 +1,5 @@
 import pytest
-from codigo2 import obter_senha, salvar_senha_encriptada, obter_senha_encriptada, verificar_senha
+from codigo2 import obter_senha, salvar_senha_encriptada, obter_senha_encriptada, verificar_senha, verificar_senha_internamente
 
 # Fixture para obter a senha do arquivo
 @pytest.fixture
