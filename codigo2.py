@@ -21,9 +21,7 @@ def main():
     senha = obter_senha()
     salvar_senha_encriptada(senha)
     senha_encriptada = obter_senha_encriptada()
-    senha_digitada = 'pedro123'
-
-def testar_senha(): 
+    senha_digitada = 'pedro123' 
     assert verificar_senha(senha_digitada,senha_encriptada)
 
 if __name__ == "__main__":
